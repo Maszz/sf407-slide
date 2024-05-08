@@ -4,8 +4,11 @@
 
 <v-click depth="2">
 <ul>
-  <li v-for="(value, key) in data.items" :key="key">{{ key }} - {{ value }}</li>
+ <li v-for="(value, key) in data.items" :key="key">
+    <span class="color-[#4EC5D4]">{{ key }}</span> - <span class="color-[#c0c0c0]">{{ value }}</span>
+  </li>
 </ul>
+
 </v-click>
 
 <script setup lang="ts">

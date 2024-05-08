@@ -15,12 +15,12 @@ fonts:
   mono: Fira Code
 ---
 
-<h1> {{$frontmatter.data.title}} </h1>
-<span>{{ $frontmatter.data.subtitle }}</span>
+<h1 class="corlor-[#c0c0c0]"> {{ data.title }} </h1>
+<span class="color-[#c0c0c0]">{{ data.subtitle }}</span>
 <script setup lang="ts">
   const data = {
-    title: 'Internship Experiance Presentation',
-    subtitle: 'SF407 Long-term Internship in Software Engineering',
+    title: $frontmatter.props.title,
+    subtitle: $frontmatter.props.subtitle
   }
 </script>
 

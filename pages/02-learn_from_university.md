@@ -4,18 +4,20 @@
 
 <v-click>
 <ul>
-  <li v-for="(value, key) in data.items" :key="key">{{ key }} - {{ value }}</li>
+ <li v-for="(value, key) in data.items" :key="key">
+    <span class="color-[#4EC5D4]">{{ key }}</span> - <span class="color-[#c0c0c0]">{{ value }}</span>
+  </li>
 </ul>
 </v-click>
 
 <script setup lang="ts">
 const data = {
-  title: 'What have i studied from university ? --',
+  title: 'What have I studied from university? --',
   items: {
     'Software-Engineering-Process': 'Study about software engineering with UML, Agile, and software development process',
     'Computer-Network': 'Study about computer network with TCP/IP, OSI model, and network programming',
     'Operating-System': 'Study about operating system with Linux, Windows, and system programming',
-    'Database': 'Study about database with MySQL, Oracle, and database programming',
+    'Database': 'Study about database with MySQLand database programming, including a graph database eg. sparQL',
     'Software-Testing': 'Study about software testing with unit testing, integration testing, and system testing',
     'Data-Structure': 'Study about data structure with array, linked list, stack, queue, tree, and graph',
     'Computer-Security': 'Study about computer security with cryptography, network security, and security programming',
