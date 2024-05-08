@@ -1,10 +1,10 @@
 <div class="section">
       <h2 class="text-[24px] color-[#2980b9]">{{ data.frontend.title }}</h2>
-      <ul class="list p-0">
-        <li v-for="(description, technology) in data.frontend.items" :key="technology" class="bg-blue-100">
-          <strong class="color-[#16a085]">{{ technology }}:</strong> {{ description }}
-        </li>
-      </ul>
+</div>
+
+<!-- ![lazygit](./assets/lazygit.png) -->
+<div class="flex justify-center">
+<img src="assets/lazygit.png" alt="Lazygit images" class="w-[85%] h-auto block mt-5">
 </div>
 
 <script setup lang="ts">
@@ -29,18 +29,12 @@ const data = {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-
-
-
-.list {
-  list-style-type: none;
-}
-
-.list li {
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Lighter shadow for a softer effect */
-}
+/* img { */
+/*   width: 100%; */
+/*   height: auto; */
+/*   display: block; */
+/*   justify-content: center; */
+/* } */
+/**/
 
 </style>

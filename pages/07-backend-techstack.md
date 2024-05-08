@@ -16,6 +16,7 @@ const data = {
       'Express.js(node.js)' : 'A fast, unopinionated, minimalist web framework for Node.js',
       'Fiber(Golang)' : 'Express inspired web framework build on top of Fasthttp, the fastest HTTP engine for Go',
       'Gin(Golang)' : 'A web framework written in Go (Golang). It features a Martini-like API with much better performance',
+      'FastAPI(Python)' : 'A modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints',
     },
   }
 }

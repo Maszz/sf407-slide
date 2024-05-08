@@ -11,9 +11,17 @@ colorSchema: auto
 transition: fade-out
 src: ./pages/01-intro_slide.md
 
-data:
-  title: Internship Experiance Presentation
+props:
+  title: "Software Engineering Internship"
   subtitle: SF407 Long-term Internship in Software Engineering
+---
+
+---
+src: ./pages/01_1-company-info.md
+---
+
+---
+src: ./pages/01_2-responsibility.md
 ---
 
 ---
@@ -56,6 +64,27 @@ layout_props:
 src: ./pages/07-backend-techstack.md
 props:
   title: Backend
+layout: TechStack
+layout_props:
+  title: Tech Stack & Tools
+---
+
+---
+src: ./pages/07_1-backend-example.md
+layout: TechStack
+layout_props:
+  title: Tech Stack & Tools
+---
+
+---
+src: ./pages/07_2-backend-example.md
+layout: TechStack
+layout_props:
+  title: Tech Stack & Tools
+---
+
+---
+src: ./pages/07_3-backend-example.md
 layout: TechStack
 layout_props:
   title: Tech Stack & Tools
