@@ -4,7 +4,7 @@
 
 <!-- ![lazygit](./assets/lazygit.png) -->
 <div class="flex justify-center">
-<img src="assets/lazygit.png" alt="Lazygit images" class="w-[85%] h-auto block mt-5">
+<img src="https://github.com/Maszz/sf406-slide/public/lazygit.png" alt="Lazygit images" class="w-[85%] h-auto block mt-5">
 </div>
 
 <script setup lang="ts">
