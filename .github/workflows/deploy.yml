@@ -4,10 +4,10 @@ on:
   workflow_dispatch: {}
   push:
     branches:
-      - production  # Changed from 'main' to 'production'
+      - production # Changed from 'main' to 'production'
   pull_request:
     branches:
-      - production  # Trigger on pull requests targeting 'production' branch
+      - production # Trigger on pull requests targeting 'production' branch
 
 jobs:
   deploy:
