@@ -33,7 +33,7 @@ jobs:
         run: npm i -g @slidev/cli
 
       - name: Replace relative urls
-        run: find . -type f \( -name "slide.md" -o -path "./components/*" -o -path "./pages/*" \) -exec sed -i 's,assets/,https://github.com/Maszz/sf407-slide/,g' {} +
+        run: find . -type f \( -name "slide.md" -o -path "./components/*" -o -path "./pages/*" \) -exec sed -i 's,assets/,https://maszz.github.io/sf407-slide/,g' {} +
 
       - name: Build
         run: npm run build -- --base /sf407-slide/
