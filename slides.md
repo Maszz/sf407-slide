@@ -55,7 +55,34 @@ layout_props:
 ---
 src: ./pages/07-backend-techstack.md
 props:
-  title: Backend Tech Stack
+  title: Backend
+layout: TechStack
+layout_props:
+  title: Tech Stack & Tools
+---
+
+---
+src: ./pages/08-other-tool.md
+props:
+  title: Other Tools
+layout: TechStack
+layout_props:
+  title: Tech Stack & Tools
+---
+
+---
+src: ./pages/09-other-tool-2.md
+props:
+  title: Lazygit
+layout: TechStack
+layout_props:
+  title: Tech Stack & Tools
+---
+
+---
+src: ./pages/10-recommendation.md
+props:
+  title: Recommendation
 layout: TechStack
 layout_props:
   title: Tech Stack & Tools

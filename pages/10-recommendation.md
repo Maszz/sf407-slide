@@ -12,10 +12,8 @@ const data = {
   frontend: {
     title:  $frontmatter.props.title,
     items: {
-      'Nest.js(node.js)' : 'A progressive Node.js framework for building efficient, reliable and scalable server-side applications',
-      'Express.js(node.js)' : 'A fast, unopinionated, minimalist web framework for Node.js',
-      'Fiber(Golang)' : 'Express inspired web framework build on top of Fasthttp, the fastest HTTP engine for Go',
-      'Gin(Golang)' : 'A web framework written in Go (Golang). It features a Martini-like API with much better performance',
+    'Known of your editor': 'Knowing your editor well can save you a lot of time',
+    'Vim motion': 'A motion plugin for Vim to make it easier to navigate in the file',
     },
   }
 }

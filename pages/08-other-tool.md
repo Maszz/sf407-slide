@@ -12,10 +12,10 @@ const data = {
   frontend: {
     title:  $frontmatter.props.title,
     items: {
-      'Nest.js(node.js)' : 'A progressive Node.js framework for building efficient, reliable and scalable server-side applications',
-      'Express.js(node.js)' : 'A fast, unopinionated, minimalist web framework for Node.js',
-      'Fiber(Golang)' : 'Express inspired web framework build on top of Fasthttp, the fastest HTTP engine for Go',
-      'Gin(Golang)' : 'A web framework written in Go (Golang). It features a Martini-like API with much better performance',
+      'Git' : 'A distributed version control system for tracking changes in source code during software development',
+      'Docker' : 'A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers',
+      'Kubernetes' : 'An open-source container-orchestration system for automating computer application deployment, scaling, and management',
+      'GitLab' : 'A web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking and CI/CD pipeline features, using an open-source license', 
     },
   }
 }
