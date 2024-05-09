@@ -1,8 +1,8 @@
 <div class="section">
       <h2 class="text-[24px] color-[#2980b9]">{{ data.frontend.title }}</h2>
       <ul class="list p-0">
-        <li v-for="(description, technology) in data.frontend.items" :key="technology" class="bg-blue-100">
-          <strong class="color-[#16a085]">{{ technology }}:</strong> {{ description }}
+        <li v-for="(description, technology) in data.frontend.items" :key="technology">
+          <strong class="color-[#16a085]">{{ technology }}:</strong> <span class="text-[#c0c0c0]">{{ description }}</span>
         </li>
       </ul>
 </div>

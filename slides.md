@@ -116,3 +116,12 @@ layout: TechStack
 layout_props:
   title: Tech Stack & Tools
 ---
+
+---
+src: ./pages/99-end_slide.md
+props:
+  title: "End"
+theme: academic
+coverAuthor: Mawin Sukmongkol, 6310742629
+coverAuthorUrl: https://github.com/Maszz
+---
