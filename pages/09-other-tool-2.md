@@ -2,7 +2,6 @@
       <h2 class="text-[24px] color-[#2980b9]">{{ data.frontend.title }}</h2>
 </div>
 
-<!-- ![lazygit](./assets/lazygit.png) -->
 <div class="flex justify-center">
 <img src="public/lazygit.png" alt="Lazygit images" class="w-[85%] h-auto block mt-5">
 </div>
