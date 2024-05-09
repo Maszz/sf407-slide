@@ -14,6 +14,8 @@ src: ./pages/01-intro_slide.md
 props:
   title: "Software Engineering Internship"
   subtitle: SF407 Long-term Internship in Software Engineering
+download: true
+exportFilename: sf407_presentation
 ---
 
 ---
@@ -121,7 +123,4 @@ layout_props:
 src: ./pages/99-end_slide.md
 props:
   title: "End"
-theme: academic
-coverAuthor: Mawin Sukmongkol, 6310742629
-coverAuthorUrl: https://github.com/Maszz
 ---
