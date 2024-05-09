@@ -5,7 +5,7 @@
 <v-click>
 <ul>
  <li v-for="(value, key) in data.items" :key="key">
-    <span class="color-[#4EC5D4]">{{ key }}</span> - <span class="color-[#c0c0c0]">{{ value }}</span>
+    <span class="color-[#4EC5D4] text-base">{{ key }}</span> - <span class="color-[#c0c0c0] text-base">{{ value }}</span>
   </li>
 </ul>
 </v-click>
