@@ -35,9 +35,6 @@ jobs:
       - name: Install slidev
         run: npm i -g @slidev/cli
 
-      - name: playwright deps install
-        run: npx playwright install-deps
-
       - name: Replace relative urls
         run: find . -type f \( -name "slide.md" -o -path "./components/*" -o -path "./pages/*" \) -exec sed -i 's,public/,https://maszz.github.io/sf407-slide/,g' {} +
 
